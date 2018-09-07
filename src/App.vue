@@ -1,17 +1,6 @@
 <template>
-  <v-app light>
-    <v-toolbar fixed app :clipped-left="clipped">
-      <v-spacer></v-spacer>
-      <v-toolbar-title v-text="title" text-xs-center></v-toolbar-title>
-      <v-spacer></v-spacer>
-      <v-btn
-      outline color="blue"
-      :onClick="consoleClick"
-      >Help</v-btn>
-    </v-toolbar>
-    <v-content>
+  <v-app>
       <router-view></router-view>
-    </v-content>
   </v-app>
 </template>
 <script>
@@ -19,10 +8,7 @@
   export default {
     data () {
       return {
-        cordova: Vue.cordova,
-        clipped: false,
-        miniVariant: false,
-        title: 'Aapki Sevamen'
+        cordova: Vue.cordova
       }
     },
     created () {

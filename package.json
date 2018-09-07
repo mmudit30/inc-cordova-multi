@@ -19,11 +19,17 @@
     "android-vm": "npm run build && cordova run android"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.4",
+    "@fortawesome/free-brands-svg-icons": "^5.3.1",
+    "@fortawesome/free-solid-svg-icons": "^5.3.1",
+    "@fortawesome/vue-fontawesome": "^0.1.1",
     "@sinonjs/formatio": "^2.0.0",
     "axios": "^0.18.0",
     "cordova-plugin-device": "^2.0.2",
     "eslint-plugin-import": "^2.12.0",
     "eslint-plugin-node": "^6.0.1",
+    "i": "^0.3.6",
+    "npm": "^6.4.1",
     "uuid": "^3.2.1",
     "vee-validate": "^2.1.0-beta.8",
     "vue": "^2.5.16",
