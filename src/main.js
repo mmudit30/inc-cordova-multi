@@ -27,7 +27,7 @@ library.add(fas.faCoffee,fas.faShoppingCart,fas.faUserCircle,fas.faCompass,fas.f
 ,fas.faMobile,fas.faArrowAltCircleRight,fab.faFacebook,fab.faInstagram,fab.faTwitter,fab.faGooglePlus,fab.faYoutube
 ,fas.faHome,fas.faCaretSquareDown,fas.faBars,fas.faLaptop,fas.faKey,fas.faTshirt,fas.faPaintRoller,fas.faHeart
 ,fas.faUser,fas.faFileContract,fas.faQuestionCircle,fas.faTimes,fas.faFilter,fas.faSortAmountDown,fas.faSearch,fas.faArrowRight,
-fas.faShare,fas.faTrash,fas.faPlusSquare,fas.faMinusSquare
+fas.faShare,fas.faTrash,fas.faPlusSquare,fas.faMinusSquare,fas.faArrowLeft
 )
 
 Vue.component('font-awesome-icon', FontAwesomeIcon)

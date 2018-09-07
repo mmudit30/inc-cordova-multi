@@ -5,17 +5,16 @@
           <v-bottom-nav
             :active.sync="bottomNav"
             :value="true"
-            height="100px"
             absolute
             color="transparent">
                 <v-btn
                   class="btn-item"
                   :to="`${item.link}`"
                   v-for="item in buttonitem"
-                  :key="item"
+                  :key="item.link"
                   flat light>
                   <span>{{item.title}}</span>
-                  <v-icon large>{{item.icon}}</v-icon>
+                  <v-icon>{{item.icon}}</v-icon>
                 </v-btn>
           </v-bottom-nav>
       </v-flex>
