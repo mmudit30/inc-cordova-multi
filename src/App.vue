@@ -3,13 +3,12 @@
       <router-view></router-view>
   </v-app>
 </template>
-
 <script>
   import Vue from 'vue'
   export default {
     data () {
       return {
-        cordova: Vue.cordova,
+        cordova: Vue.cordova
       }
     },
     created () {
