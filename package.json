@@ -19,11 +19,16 @@
     "android-vm": "npm run build && cordova run android"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.4",
+    "@fortawesome/free-solid-svg-icons": "^5.3.1",
+    "@fortawesome/vue-fontawesome": "^0.1.1",
     "@sinonjs/formatio": "^2.0.0",
     "axios": "^0.18.0",
     "cordova-plugin-device": "^2.0.2",
     "eslint-plugin-import": "^2.12.0",
     "eslint-plugin-node": "^6.0.1",
+    "i": "^0.3.6",
+    "npm": "^6.4.1",
     "uuid": "^3.2.1",
     "vee-validate": "^2.1.0-beta.8",
     "vue": "^2.5.16",
@@ -33,6 +38,8 @@
     "vuetify": "^1.0.18"
   },
   "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.3.1",
+    "@mdi/font": "^2.7.94",
     "autoprefixer": "^8.5.0",
     "babel-core": "^6.26.3",
     "babel-eslint": "^8.2.3",
@@ -63,6 +70,7 @@
     "express": "^4.16.3",
     "extract-text-webpack-plugin": "^4.0.0-beta.0",
     "file-loader": "^1.1.11",
+    "font-awesome": "^4.7.0",
     "friendly-errors-webpack-plugin": "^1.7.0",
     "html-webpack-plugin": "^3.2.0",
     "http-proxy-middleware": "^0.18.0",

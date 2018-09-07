@@ -49,9 +49,12 @@
         <v-icon>menu</v-icon>
       </v-btn>
     </v-toolbar>
+
     <v-content>
       <router-view></router-view>
     </v-content>
+
+
     <v-navigation-drawer
       temporary
       :right="right"
