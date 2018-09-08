@@ -11,6 +11,7 @@
               <center>
                 <v-icon style="font-size: 31px;" color="blue">shopping_cart</v-icon>
                 <span class="cart_name">Your Cart</span>
+                <span class="cart_quantity">({{n}})</span>
               </center>
             </div>
           </v-flex>
@@ -23,6 +24,7 @@
   export default {
     data () {
       return {
+        n: 10
       }
     }
   }
@@ -32,6 +34,11 @@
   .cart_name {
     color: #1e88e5;
     font-size: 30px;
+    margin-left: 15px;
+  }
+  .cart_quantity {
+    color: #1e88e5;
+    font-size: 25px;
     margin-left: 15px;
   }
   .cart {

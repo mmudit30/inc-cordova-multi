@@ -1,6 +1,6 @@
 <template lang="html">
   <v-app>
-    <titlebar/>
+    <titlebar showbackarrow='true'></titlebar>
     <searchbar style="margin-top: 50px"/>
     <v-content>
       <productlist/>
