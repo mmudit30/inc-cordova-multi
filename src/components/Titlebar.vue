@@ -1,6 +1,6 @@
 <template lang="html">
   <div class="">
-  <v-toolbar fixed>
+  <v-toolbar fixed flat>
     <v-spacer></v-spacer>
     <v-btn outline color="blue">Help&nbsp;<font-awesome-icon icon="question-circle" /></v-btn>
   </v-toolbar>

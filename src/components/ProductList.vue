@@ -1,6 +1,6 @@
 <template>
-  <v-layout row>
-    <v-flex>
+  <v-layout>
+    <v-flex class="prodlist">
       <v-list
         :to="`${product.link}`"
         v-for="product in product_list"
@@ -29,7 +29,10 @@
       }
     }
   }
-  </script>
+</script>
 
-  <style>
-  </style>
+<style>
+  .prodlist {
+    margin-bottom: 80px;
+  }
+</style>
