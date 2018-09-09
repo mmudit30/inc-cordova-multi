@@ -8,7 +8,7 @@
           <v-flex>
             <v-img
               class="image_product"
-              src="https://images.yourstory.com/2016/08/125-fall-in-love.png">
+              src="http://torchesdesignstudio.com/wp-content/uploads/2016/04/dummy-post-square-1-thegem-blog-masonry.jpg">
             </v-img>
           </v-flex>
           <v-flex>
