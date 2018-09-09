@@ -1,5 +1,5 @@
 /* eslint-disable */
-import { userService } from '../_services'
+import { userService } from '../services'
 import  router  from '../router'
 
 const user = JSON.parse(localStorage.getItem('user'))
