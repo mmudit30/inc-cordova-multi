@@ -9,7 +9,7 @@
           <v-flex>
             <div class="cart">
               <center>
-                <v-icon style="font-size: 31px;" color="blue">shopping_cart</v-icon>
+                <v-icon style="font-size: 30px;" color="blue">shopping_cart</v-icon>
                 <span class="cart_name">Your Cart</span>
                 <span class="cart_quantity">({{n}})</span>
               </center>
