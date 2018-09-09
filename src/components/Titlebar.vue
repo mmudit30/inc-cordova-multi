@@ -1,6 +1,7 @@
 <template lang="html">
   <div class="">
-  <v-toolbar fixed>
+  <v-toolbar fixed flat>
+    <v-btn v-if="showbackarrow" outline color="blue"><font-awesome-icon icon="arrow-left"/>&nbsp;Back</v-btn>
     <v-spacer></v-spacer>
     <v-btn outline color="blue">Help&nbsp;<font-awesome-icon icon="question-circle" /></v-btn>
   </v-toolbar>
