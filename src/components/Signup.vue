@@ -41,16 +41,7 @@
                   type="email"
                   :rules="[rules.required, rules.email]"
                   >
-                  </v-text-field>
-                  <!--v-text-field
-                  ref = "Phone"
-                  prepend-icon="call"
-                  type="number"
-                  v-model = "phone"
-                  :rules="phoneRules"
-                  label="Phone No."
-
-                -->
+                  
                   </v-text-field>
                   <v-text-field
                   prepend-icon="lock"
@@ -67,15 +58,15 @@
                   @click:append="show1 = !show1"
                   :rules="[rules.required, rules.password]"
                   ref="password">
-                <!--/v-text-field>
+                </v-text-field>
                   <v-text-field
                   prepend-icon="lock"
                   name="cpassword"
                   label="Confirm Password"
                   id="cpassword"
                   type="password"
-                  v-validate="'required|confirmed:password'"
-                -->
+                  v-validate="'confirmed:password'"
+                >
                   </v-text-field>
                   <v-card-actions>
 
