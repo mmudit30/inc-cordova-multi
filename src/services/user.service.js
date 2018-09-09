@@ -1,5 +1,4 @@
 /* eslint-disable */
-import config from 'config';
 import { authHeader } from '../helpers';
 const config ={
   apiUrl:'' // TODO: Set URl

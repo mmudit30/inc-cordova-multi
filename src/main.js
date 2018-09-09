@@ -12,10 +12,13 @@ import 'vuetify/dist/vuetify.css'
 import VueCordova from 'vue-cordova'
 import VueHead from 'vue-head'
 import axios from 'axios'
+import Vuex from 'vuex'
 import App from './App'
 import router from './router'
 import VeeValidate from 'vee-validate'
+import {store} from './store'
 Vue.use(VeeValidate)
+Vue.use(Vuex)
 Vue.use(axios)
 Vue.use(Vuetify)
 Vue.config.productionTip = false
@@ -45,6 +48,7 @@ if (window.location.protocol === 'file:' || window.location.port === '3000') {
 new Vue({
   el: '#app',
   router,
+  store: store,
   template: '<App/>',
   components: { App },
   head: {
