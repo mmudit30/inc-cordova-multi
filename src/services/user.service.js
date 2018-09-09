@@ -1,7 +1,8 @@
 /* eslint-disable */
-import config from 'config';
-import { authHeader } from '../_helpers';
-
+import { authHeader } from '../helpers';
+const config ={
+  apiUrl:'' // TODO: Set URl
+}
 export const userService = {
     login,
     logout,
