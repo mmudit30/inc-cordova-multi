@@ -1,6 +1,6 @@
 <template>
   <v-app>
-  <v-content>
+<v-content>
   <v-container fluid fill-height>
     <v-layout align-center justify-center>
       <v-flex xs12 sm8 md4>
@@ -18,20 +18,15 @@
           <v-card-text>
             <v-form>
               <v-flex xs12>
-                <v-text-field value="Enter the 4 digit Pin" disabled readonly></v-text-field>
+                <v-text-field value="Enter the 4 digit OTP sent on your phone" disabled readonly></v-text-field>
               </v-flex>
 
               <v-flex>
-                <v-text-field id="align" type="number" name="pin" ref="pin" prepend-inner-icon="key" single-line outline v-model="pin" v-validate="`required|digits:4`"></v-text-field>
+                <v-text-field id="align" type="number" prepend-inner-icon="key" single-line outline v-model="otp" v-validate="`required|digits:4`"></v-text-field>
               </v-flex>
-              <v-flex xs12>
-                <v-text-field value="Confirm your Pin" disabled readonly></v-text-field>
-              </v-flex>
-              <v-flex>
-                <v-text-field id="align" type="number" name="confirmPin" v-validate="'confirmed:pin'" prepend-inner-icon="key" single-line outline v-model="pin2" v-validate="`required|digits:4`"></v-text-field>
-              </v-flex>
+
               <v-card-actions>
-                <v-btn large depressed block color="primary">Sign Up</v-btn>
+                <v-btn large depressed block color="primary">Confirm OTP</v-btn>
               </v-card-actions>
             </v-form>
           </v-card-text>
@@ -41,7 +36,7 @@
     </v-layout>
   </v-container>
 </v-content>
-  </v-app>
+</v-app>
 </template>
 <script>
   export default {
@@ -49,8 +44,7 @@
       return {
         email: '',
         password: '',
-        pin: '',
-        pin2: '',
+        otp: '',
 
       }
     },

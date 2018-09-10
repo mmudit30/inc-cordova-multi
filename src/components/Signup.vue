@@ -1,6 +1,5 @@
-
-<template><div id="app">
-  <v-app id="inspire">
+<template>
+  <v-app>
     <v-content>
       <v-container fluid fill-height>
         <v-layout align-center justify-center>
@@ -31,7 +30,7 @@
                   id="name"
                   type="text"
                   :rules="[rules.required, rules.name]"
-                  VeeValidate="'required'">
+                  v-validate="'required'">
                   </v-text-field>
 
                   <v-text-field
@@ -39,9 +38,9 @@
                   name="email"
                   label="Email Id"
                   type="email"
-                  :rules="[rules.required, rules.email]"
+                  v-validate="`required|email`"
                   >
-                  
+
                   </v-text-field>
                   <v-text-field
                   prepend-icon="lock"
@@ -50,13 +49,7 @@
                   id="password"
                   type="password"
                   v-model="password"
-                  :append-icon="show1 ? 'visibility_off' : 'visibility'"
-                  :type="show1 ? 'text' : 'password'"
-
-                  hint="At least 8 characters"
-                  counter
-                  @click:append="show1 = !show1"
-                  :rules="[rules.required, rules.password]"
+                  v-validate="`required`"
                   ref="password">
                 </v-text-field>
                   <v-text-field
@@ -86,20 +79,13 @@
       </v-container>
     </v-content>
   </v-app>
-</div></template>
+</template>
 <script>
   export default {
     data () {
       return {
         email: '',
         password: '',
-
-        rules: {
-          required: value => !!value || 'Required.',
-          email: v => /.+@.+/.test(v) || 'E-mail must be valid'
-
-        }
-
       }
     },
     computed: {
