@@ -1,28 +1,25 @@
 <template lang="html">
   <v-app>
     <titlebar :showbackarrow="true"></titlebar>
-    <searchbar style="margin-top: 50px"/>
-    <v-content>
-      <productlist :showproducts="true"/>
+    <v-content style="margin-top: 55px">
+      <productlist :showcartitems="true" :showproducts="false"/>
     </v-content>
     <v-footer>
-      <v-btn :to="`${'cart/shopcart'}`"><bottomcart/></v-btn>
+      <bottomnavigation/>
     </v-footer>
   </v-app>
 </template>
 
 <script>
 /* eslint-disable */
-import bottomcart from '@/components/BottomCart.vue'
+import bottomnavigation from '@/components/BottomNavigation.vue'
 import titlebar from '@/components/Titlebar.vue'
-import searchbar from '@/components/SearchBar.vue'
 import productlist from '@/components/ProductList.vue'
 export default {
   components:{
     titlebar,
-    searchbar,
     productlist,
-    bottomcart
+    bottomnavigation
   }
 }
 </script>

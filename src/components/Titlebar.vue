@@ -15,7 +15,7 @@
 /* eslint-disable */
 export default {
   props: {
-    showbackarrow: Boolean
+    showbackarrow: Boolean,
   }
 }
 </script>

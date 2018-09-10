@@ -4,9 +4,10 @@
       <v-flex>
           <v-bottom-nav
             :active.sync="bottomNav"
+            height="100px"
             :value="true"
-            absolute
-            color="transparent">
+            fixed
+            color="white">
                 <v-btn
                   class="btn-item"
                   :to="`${item.link}`"
