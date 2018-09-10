@@ -1,8 +1,6 @@
 <template>
   <v-layout justify-center>
     <v-flex xs12 sm8>
-
-
         <v-img
           src="https://images.unsplash.com/photo-1460400355256-e87506dcec4f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=83fa71ea4b3e18340f85c88633a8c3f0&auto=format&fit=crop&w=750&q=80"
           height="175px"
@@ -11,7 +9,6 @@
           <span class="headline white--text">Product Name</span>
           <v-spacer></v-spacer>
           <span class="headline white--text">₹ Product-price</span>
-
         </v-card-title>
 
         <v-flex outline background-color="blue" text-xs-center>
