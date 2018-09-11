@@ -9,7 +9,7 @@
 /* eslint-disable */
 import bottomnavigation from '@/components/BottomNavigation.vue'
 import titlebar from '@/components/Titlebar.vue'
-import signup from '@/components/Signup.vue'
+import signup from '@/components/Login.vue'
 export default {
   components:{
     bottomnavigation,
