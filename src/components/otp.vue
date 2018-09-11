@@ -33,7 +33,7 @@
                   <v-flex>
                     <v-text-field id="align"
                     type="number"
-                    prepend-inner-icon="key"
+                    prepend-inner-icon="lock"
                     single-line
                     outline
                     v-model = "otp"

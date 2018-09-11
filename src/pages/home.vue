@@ -1,6 +1,7 @@
 <template lang="html">
   <v-app>
     <titlebar/>
+    <signup/>
     <bottomnavigation/>
   </v-app>
 </template>
@@ -9,7 +10,7 @@
 /* eslint-disable */
 import bottomnavigation from '@/components/BottomNavigation.vue'
 import titlebar from '@/components/Titlebar.vue'
-import signup from '@/components/Login.vue'
+import signup from '@/components/TollFree.vue'
 export default {
   components:{
     bottomnavigation,
