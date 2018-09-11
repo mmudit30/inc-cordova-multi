@@ -10,7 +10,7 @@
 /* eslint-disable */
 import bottomnavigation from '@/components/BottomNavigation.vue'
 import titlebar from '@/components/Titlebar.vue'
-import signup from '@/components/TollFree.vue'
+import signup from '@/components/signup.vue'
 export default {
   components:{
     bottomnavigation,
