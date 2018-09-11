@@ -20,17 +20,10 @@
                 <v-flex xs12>
                   <v-text-field value="Phone No." readonly></v-text-field>
                 </v-flex>
-
-                <v-layout row wrap>
-                  <v-flex xs2 sm2>
-                    <v-text-field prepend-inner-icon="call" label="+91" single-line readonly outline></v-text-field>
-                  </v-flex>
-
                   <v-flex xs6 sm10 fixed>
-                    <v-text-field type="number" label="Enter your No. here" single-line outline v-model="phone" v-validate="`required|digits:10`"></v-text-field>
+                    <v-text-field prepend-inner-icon="call" type="number" label="Enter your No. here" single-line outline v-model="phone" v-validate="`required|digits:10`"></v-text-field>
                   </v-flex>
-                </v-layout>
-
+  
                 <v-card-actions>
                   <v-btn large depressed block color="primary">Submit</v-btn>
                 </v-card-actions>
