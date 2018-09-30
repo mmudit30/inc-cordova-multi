@@ -6,25 +6,25 @@
         v-for="product in product_list"
         :key="product.link"
         light>
-          <productbar/>
+          <shopproductbar/>
       </v-list>
     </v-flex>
   </v-layout>
 </template>
 
 <script>
-  import productbar from './ProductBar.vue'
+  import shopproductbar from './ShopProductBar.vue'
   export default {
     components: {
-      productbar
+      shopproductbar
     },
     data () {
       return {
         product_list: [
-          {link: '/cart/product1'},
-          {link: '/cart/product1'},
-          {link: '/cart/product1'},
-          {link: '/cart/product1'}
+          {link: 'product1'},
+          {link: 'product1'},
+          {link: 'product1'},
+          {link: 'product1'}
         ]
       }
     }

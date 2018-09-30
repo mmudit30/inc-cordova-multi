@@ -1,6 +1,7 @@
 <template lang="html">
-  <v-app>
+  <v-app style="background-color: #ffffff">
     <titlebar/>
+    <servicelist style="margin-top: 55px;"/>
     <bottomnavigation/>
   </v-app>
 </template>
@@ -9,9 +10,11 @@
 /* eslint-disable */
 import bottomnavigation from '@/components/BottomNavigation.vue'
 import titlebar from '@/components/Titlebar.vue'
+import servicelist from '@/components/ServiceList.vue'
 export default {
   components:{
     bottomnavigation,
+    servicelist,
     titlebar
   }
 }

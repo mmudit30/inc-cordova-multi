@@ -2,20 +2,20 @@
   <v-container pt-2 pb-0 pl-4 pr-4>
     <v-flex>
       <v-card
-        height="140px"
-        hover="true">
+        :to="`${'products/product1'}`"
+        height="140px">
         <v-layout>
           <v-flex>
             <v-img
-              class="image_product"
+              class="image_product_pb"
               src="http://torchesdesignstudio.com/wp-content/uploads/2016/04/dummy-post-square-1-thegem-blog-masonry.jpg">
             </v-img>
           </v-flex>
           <v-flex>
             <v-card-title>
               <div>
-                <div class="product_name">Product_1</div>
-                <div class="product_price">Rs. 50.00</div>
+                <div class="product_name_pb">Product_1</div>
+                <div class="product_price_pb">Rs. 50.00</div>
               </div>
             </v-card-title>
           </v-flex>
@@ -26,16 +26,16 @@
 </template>
 
 <style>
-  .image_product {
+  .image_product_pb {
     margin: 2.5px;
     height: 135px;
     width: 150px;
   }
-  .product_name {
+  .product_name_pb {
     font-size: 25px;
     margin-bottom: 20px;
   }
-  .product_price {
+  .product_price_pb {
     font-size: 18px;
   }
 </style>
