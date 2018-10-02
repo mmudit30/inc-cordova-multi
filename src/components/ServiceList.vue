@@ -1,6 +1,6 @@
 <template>
   <v-container pa-0 ma-0>
-    <v-layout style="display: block;">
+    <v-layout style="display: block; margin-bottom: 70px;">
       <v-list>
         <v-list-tile
           @click="servicelist = services.servicelist"

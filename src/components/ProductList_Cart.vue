@@ -33,6 +33,6 @@
 
 <style>
   .prodlist {
-    margin-bottom: 80px;
+    margin-bottom: 70px;
   }
 </style>

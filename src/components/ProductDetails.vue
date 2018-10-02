@@ -1,6 +1,6 @@
 <template>
   <v-layout justify-center>
-    <v-flex xs12 sm8>
+    <v-flex xs12 sm8 style="margin-bottom: 70px;">
         <v-img
           src="http://torchesdesignstudio.com/wp-content/uploads/2016/04/dummy-post-square-1-thegem-blog-masonry.jpg"
           height="175px"
@@ -50,7 +50,11 @@
     },
     methods: {
       increment () {
-        this.quantity++
+        if (this.quantity === 25) {
+          this.quantity = 25
+        } else {
+          this.quantity++
+        }
       },
       decrement () {
         if (this.quantity === 1) {

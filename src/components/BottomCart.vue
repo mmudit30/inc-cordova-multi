@@ -2,7 +2,7 @@
   <v-layout>
     <v-flex>
       <v-bottom-nav
-        height="100px"
+        height="90px"
         :value="true"
         fixed
         color="#f5f5f5">
@@ -29,12 +29,12 @@
     color: #1e88e5;
     font-size: 30px;
     margin-left: 15px;
-    margin-top: 27px;
+    margin-top: 22px;
   }
   .cart_quantity {
     color: #1e88e5;
     font-size: 28px;
     margin-left: 5px;
-    margin-top: 30px;
+    margin-top: 24px;
   }
 </style>

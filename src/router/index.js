@@ -8,6 +8,7 @@ import Productdetail from '@/pages/productdetail.vue'
 import Login from '@/pages/LoginPage.vue'
 import Useraccount from '@/pages/useraccount.vue'
 import SuggestFeed from '@/pages/SuggestFeed.vue'
+import Editdetails from '@/pages/EditDetails.vue'
 Vue.use(Router)
 
 export default new Router({
@@ -46,6 +47,11 @@ export default new Router({
       path: '/account/feedback',
       name: 'suggestFeed',
       component: SuggestFeed
+    },
+    {
+      path: '/account/editdetails',
+      name: 'Editdetails',
+      component: Editdetails
     }
   ]
 })

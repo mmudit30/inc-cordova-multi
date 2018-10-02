@@ -1,7 +1,7 @@
 <template>
   <v-container pa-0 fluid>
     <v-layout>
-      <v-flex style="margin-bottom: 80px;">
+      <v-flex style="margin-bottom: 70px;">
         <v-img
           src="http://torchesdesignstudio.com/wp-content/uploads/2016/04/dummy-post-square-1-thegem-blog-masonry.jpg"
           height="175px">
@@ -9,7 +9,7 @@
         <v-card-title>
           <span style="font-size: 30px;">User_Name</span>
           <v-spacer></v-spacer>
-          <v-icon style="font-size: 25px; color: #1e88e5">edit</v-icon>
+          <v-btn style="margin: 0px; min-width: 0px;" depressed color="transparent" :to="`${'/account/editdetails'}`"><v-icon style="font-size: 25px; color: #1e88e5">edit</v-icon></v-btn>
         </v-card-title><br/>
         <v-flex style="margin-right:10px;">
           <p style="font-size: 18px; margin-left: 8px;"><v-icon style="margin-right: 10px; color: #1e88e5">call</v-icon>Phone Number : {{phonenumber}}</p>

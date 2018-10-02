@@ -4,7 +4,7 @@
       <v-flex>
         <v-bottom-nav
           :active.sync="bottomNav"
-          height="100px"
+          height="90px"
           :value="true"
           fixed
           color="white">
