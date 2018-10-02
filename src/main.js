@@ -9,16 +9,11 @@ import Vuetify from 'vuetify'
 import 'vuetify/dist/vuetify.css'
 import VueCordova from 'vue-cordova'
 import VueHead from 'vue-head'
-
-//import '@mdi/font/css/materialdesignicons.css'
-//import '@fortawesome/fontawesome-free/css/all.css'
-//import 'font-awesome/css/font-awesome.min.css'
 import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 Vue.use(Vuetify)
-
-
 Vue.component('font-awesome-icon', FontAwesomeIcon)
-
+import App from './App'
+import router from './router'
 
 import axios from 'axios'
 import Vuex from 'vuex'
@@ -26,10 +21,10 @@ import App from './App'
 import router from './router'
 import VeeValidate from 'vee-validate'
 import {store} from './store'
+
 Vue.use(VeeValidate)
 Vue.use(Vuex)
 Vue.use(axios)
-
 Vue.use(Vuetify)
 Vue.config.productionTip = false
 Vue.use(VueCordova)
