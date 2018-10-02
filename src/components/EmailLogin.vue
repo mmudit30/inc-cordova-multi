@@ -3,20 +3,18 @@
       <v-layout>
         <v-flex>
           <br/>
-          <span style="font-size:20px; color:blue;">Phone Number</span>
+          <span style="font-size:20px; color:blue;">Email</span>
           <v-text-field
-            ref = "Phone"
-            input = "number"
-            v-model = "phone"
-            v-validate="`required|digits:10`"
+            ref = "email"
+            input = "email"
+            v-model = "email"
+            v-validate="'required|email'"
             required box single-line outline>
           </v-text-field>
-          <span style="font-size:20px; color:blue;">Pin Number</span>
+          <span style="font-size:20px; color:blue;">Password</span>
           <v-text-field
             v-model="password"
-            name="input-10-1"
-            input = "number"
-            v-validate="`required|digits:4`"
+            :type="'password'"
             box single-line outline>
           </v-text-field>
           <br/>
@@ -27,8 +25,7 @@
           </div>
           <br/><br/><br/>
           <div style="margin-left: 20px; margin-right: 20px">
-            <v-btn large block outline
-              color="primary">Log in with Email</v-btn>
+            <v-btn large block outline color="primary">Log in with Phone Number</v-btn>
             <div style="margin-top: 20px"></div>
             <v-btn outline large block color="primary">Create a New Account</v-btn>
           </div>
@@ -41,8 +38,6 @@
   export default {
     data () {
       return {
-        phone: '',
-        password: '',
         show1: true
       }
     }

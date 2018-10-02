@@ -2,7 +2,7 @@
   <v-app>
   <v-content>
   <v-container fluid fill-height>
-    <v-layout align-center justify-center>
+    <v-layout>
       <v-flex xs12 sm8 md4>
         <v-card class="elevation-14">
           <v-toolbar dark color="primary">
@@ -50,8 +50,7 @@
         email: '',
         password: '',
         pin: '',
-        pin2: '',
-
+        pin2: ''
       }
     },
     computed: {

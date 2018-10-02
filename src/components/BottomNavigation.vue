@@ -2,21 +2,20 @@
   <v-container>
     <v-layout>
       <v-flex>
-          <v-bottom-nav
-            :active.sync="bottomNav"
-            :value="true"
-            absolute
-            color="transparent">
-                <v-btn
-                  class="btn-item"
-                  :to="`${item.link}`"
-                  v-for="item in buttonitem"
-                  :key="item.link"
-                  flat light>
-                          <span>{{item.title}}</span>
-                          <v-icon>{{item.icon}}</v-icon>
-                </v-btn>
-          </v-bottom-nav>
+        <v-bottom-nav
+          :active.sync="bottomNav"
+          height="90px"
+          :value="true"
+          fixed
+          color="white">
+          <v-btn
+            :to="`${item.link}`"
+            v-for="item in buttonitem"
+            flat light color="primary">
+              <span style="font-size: 18px;">{{item.title}}</span>
+              <v-icon medium>{{item.icon}}</v-icon>
+          </v-btn>
+        </v-bottom-nav>
       </v-flex>
     </v-layout>
   </v-container>
@@ -28,10 +27,10 @@
     data () {
       return {
         bottomNav: 'home',
-        buttonitem:[
-          {icon:'home',link:'home',title:'Home'},
-          {icon:'shopping_cart',link:'cart',title:'Cart'},
-          {icon:'account_circle',link:'account',title:'Account'},
+        buttonitem: [
+          {icon:'home',link:'/home',title:'Home'},
+          {icon:'shopping_cart',link:'/products/cart',title:'Cart'},
+          {icon:'account_circle',link:'/account',title:'Account'},
         ]
       }
     }

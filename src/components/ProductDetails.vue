@@ -1,42 +1,37 @@
 <template>
   <v-layout justify-center>
-    <v-flex xs12 sm8>
+    <v-flex xs12 sm8 style="margin-bottom: 70px;">
         <v-img
-          src="https://images.unsplash.com/photo-1460400355256-e87506dcec4f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=83fa71ea4b3e18340f85c88633a8c3f0&auto=format&fit=crop&w=750&q=80"
+          src="http://torchesdesignstudio.com/wp-content/uploads/2016/04/dummy-post-square-1-thegem-blog-masonry.jpg"
           height="175px"
         ></v-img>
+
         <v-card-title class="cyan darken-1">
-          <span class="headline white--text">Product Name</span>
+          <span class="headline white--text">Product_Name</span>
           <v-spacer></v-spacer>
-          <span class="headline white--text">₹ Product-price</span>
+          <span class="headline white--text">₹ 100.00</span>
         </v-card-title>
 
-        <v-flex outline background-color="blue" text-xs-center>
+        <v-flex style="margin-top: 10px; margin-left:25px; margin-right:25px" outline background-color="blue" text-xs-center>
 
-            Quantity
-            <div class="quantity-toggle">
+            <span style="font-size: 20px;">QUANTITY</span>
+            <div class="quantity-toggle" style="margin-top: 10px">
               <button @click="decrement()">&mdash;</button>
-              <input type="text" :value="quantity" readonly>
+              <input style="font-size: 18px;" type="text" :value="quantity">
               <button @click="increment()">&#xff0b;</button>
             </div>
-
-          <v-overflow-btn
-          :items="dropdown_unit"
-          label="Kg/Gm/Packets"
-          target="#dropdown-example"
-          >
-          <v-divider inset></v-divider>
-        </v-overflow-btn>
-          </v-flex>
-          <v-flex row justify-center>
-            <v-btn
-            block
-            large
-            color="primary">
-            Add To Cart
-          </v-btn>
-          </v-flex>
-
+            <v-overflow-btn
+              :items="dropdown_unit"
+              label="Kg/Gm/Packets"
+              target="#dropdown-example">
+              <v-divider inset></v-divider>
+            </v-overflow-btn>
+        </v-flex>
+        <v-flex row justify-center>
+          <center>
+            <v-btn regular large color="primary"><span style="font-size: 20px">Add To Cart</span></v-btn>
+          </center>
+        </v-flex>
       </v-flex>
   </v-layout>
 </template>
@@ -55,11 +50,15 @@
     },
     methods: {
       increment () {
-        this.quantity++
+        if (this.quantity === 25) {
+          this.quantity = 25
+        } else {
+          this.quantity++
+        }
       },
       decrement () {
         if (this.quantity === 1) {
-          alert('Negative quantity not allowed')
+          this.quantity = 1
         } else {
           this.quantity--
         }

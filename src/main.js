@@ -9,8 +9,12 @@ import Vuetify from 'vuetify'
 import 'vuetify/dist/vuetify.css'
 import VueCordova from 'vue-cordova'
 import VueHead from 'vue-head'
+import { faCoffee } from '@fortawesome/free-solid-svg-icons'
+Vue.use(Vuetify)
+Vue.component('font-awesome-icon', FontAwesomeIcon)
 import App from './App'
 import router from './router'
+
 import axios from 'axios'
 import Vuex from 'vuex'
 import App from './App'
@@ -30,7 +34,7 @@ library.add(fas.faCoffee, fas.faShoppingCart, fas.faUserCircle, fas.faCompass, f
   , fas.faMobile, fas.faArrowAltCircleRight, fab.faFacebook, fab.faInstagram, fab.faTwitter, fab.faGooglePlus, fab.faYoutube
   , fas.faHome, fas.faCaretSquareDown, fas.faBars, fas.faLaptop, fas.faKey, fas.faTshirt, fas.faPaintRoller, fas.faHeart
   , fas.faUser, fas.faFileContract, fas.faQuestionCircle, fas.faTimes, fas.faFilter, fas.faSortAmountDown, fas.faSearch, fas.faArrowRight,
-  fas.faShare, fas.faTrash, fas.faPlusSquare, fas.faMinusSquare, fas.faArrowLeft
+  fas.faShare, fas.faTrash, fas.faPlusSquare, fas.faMinusSquare, fas.faArrowLeft, fas.faShoppingBag
 )
 
 Vue.component('font-awesome-icon', FontAwesomeIcon)
