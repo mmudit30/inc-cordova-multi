@@ -1,7 +1,7 @@
 <template lang="html">
   <div class="">
   <v-toolbar fixed flat>
-    <v-btn v-if="showbackarrow" outline color="blue"><font-awesome-icon icon="arrow-left"/>&nbsp;Back</v-btn>
+    <v-btn v-show="showbackarrow" @click="$router.go(-1)" outline color="blue"><font-awesome-icon icon="arrow-left"/>&nbsp;Back</v-btn>
     <v-spacer></v-spacer>
     <v-btn outline color="blue">Help&nbsp;<font-awesome-icon icon="question-circle" /></v-btn>
   </v-toolbar>
@@ -14,9 +14,8 @@
 <script>
 /* eslint-disable */
 export default {
-  data () {
-    return {
-    }
+  props: {
+    showbackarrow: Boolean,
   }
 }
 </script>

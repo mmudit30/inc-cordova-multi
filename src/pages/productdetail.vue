@@ -1,9 +1,8 @@
 <template lang="html">
   <v-app>
     <titlebar :showbackarrow="true"></titlebar>
-    <searchbar style="margin-top: 50px"/>
     <v-content>
-      <productlist/>
+      <productdetails style="margin-top: 55px;"/>
     </v-content>
     <v-footer>
       <v-btn :to="`${'/products/cart'}`"><bottomcart/></v-btn>
@@ -16,12 +15,11 @@
 import bottomcart from '@/components/BottomCart.vue'
 import titlebar from '@/components/Titlebar.vue'
 import searchbar from '@/components/SearchBar.vue'
-import productlist from '@/components/ProductList.vue'
+import productdetails from '@/components/ProductDetails.vue'
 export default {
   components:{
     titlebar,
-    searchbar,
-    productlist,
+    productdetails,
     bottomcart
   }
 }
