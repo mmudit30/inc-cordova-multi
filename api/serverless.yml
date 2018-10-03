@@ -1,0 +1,97 @@
+service: inc-app-api
+app: appkisewame
+tenant: amanneox
+provider:
+  name: aws
+  stage: dev
+  region: ap-south-1
+  runtime: nodejs8.10
+
+functions:
+  createUser:
+    handler: handlers/UserHandler.createUser
+    events:
+      - http:
+          path: user
+          method: post
+          cors: true
+
+  authenticate:
+    handler: handlers/UserHandler.authenticate
+    events:
+      - http:
+          path: user/authenticate
+          method: post
+          cors: true
+          
+  updateUser:
+    handler: handlers/UserHandler.updateUser
+    events:
+      - http:
+          path: user/{id}
+          method: put
+          cors: true
+
+  deleteUser:
+    handler: handlers/UserHandler.deleteUser
+    events:
+      - http:
+          path: user/{id}
+          method: delete
+          cors: true
+
+  user:
+    handler: handlers/UserHandler.user
+    events:
+      - http:
+          path: user/{id}
+          method: get
+          cors: true
+
+  createCategory:
+    handler: handlers/CategoryHandler.createCategory
+    events:
+      - http:
+          path: category/post
+          method: post
+          cors: true
+
+  updateCategory:
+    handler: handlers/CategoryHandler.updateCategory
+    events:
+      - http:
+          path: category/put/{id}
+          method: post
+          cors: true
+
+  getCategory:
+    handler: handlers/CategoryHandler.getCategory
+    events:
+      - http:
+          path: category/list
+          method: get
+          cors: true
+
+  getItem:
+    handler: handlers/ItemHandler.getItem
+    events:
+      - http:
+          path: item/list
+          method: get
+          cors: true
+
+  createItem:
+    handler: handlers/ItemHandler.createItem
+    events:
+      - http:
+          path: item/post
+          method: post
+          cors: true
+
+  updateItem:
+    handler: handlers/ItemHandler.updateItem
+    events:
+      - http:
+          path: item/put/{id}
+          method: post
+          cors: true
