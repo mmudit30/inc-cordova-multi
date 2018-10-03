@@ -1,0 +1,11 @@
+# APPKISEWA
+
+*APP*
+Vuejs Cordova app built with Vuetify
+
+*API*
+AWS Serverless NodeJs API
+
+# READ README INSIDE TO INSTALL
+
+*NEED SDK TOOL TO BUILD ANDROID SETUP* 
