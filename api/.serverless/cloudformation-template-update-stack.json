@@ -212,7 +212,7 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/inc-app-api/dev/1546958209092-2019-01-08T14:36:49.092Z/inc-app-api.zip"
+          "S3Key": "serverless/inc-app-api/dev/1547363705164-2019-01-13T07:15:05.164Z/inc-app-api.zip"
         },
         "FunctionName": "inc-app-api-dev-createUser",
         "Handler": "handlers/UserHandler.createUser",
@@ -231,14 +231,14 @@
         "IamRoleLambdaExecution"
       ]
     },
-    "CreateUserLambdaVersionMtA3Es18HJA6PrcjUEthj7sxa5QfUdJdimRLNhES8w": {
+    "CreateUserLambdaVersionzt7KD4TjIwd9CbUBlQT7IhAlTbTlFld1BP8vGQxYE": {
       "Type": "AWS::Lambda::Version",
       "DeletionPolicy": "Retain",
       "Properties": {
         "FunctionName": {
           "Ref": "CreateUserLambdaFunction"
         },
-        "CodeSha256": "rrMouyH/W05LsISo3ySsIXR7MU/G3EonziFwZZf3VAg="
+        "CodeSha256": "cTEz/qYT8JZCepn2YH7f7ZPgF9aRFYY1HFVZDyD0jtA="
       }
     },
     "AuthenticateLambdaFunction": {
@@ -248,7 +248,7 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/inc-app-api/dev/1546958209092-2019-01-08T14:36:49.092Z/inc-app-api.zip"
+          "S3Key": "serverless/inc-app-api/dev/1547363705164-2019-01-13T07:15:05.164Z/inc-app-api.zip"
         },
         "FunctionName": "inc-app-api-dev-authenticate",
         "Handler": "handlers/UserHandler.authenticate",
@@ -267,14 +267,14 @@
         "IamRoleLambdaExecution"
       ]
     },
-    "AuthenticateLambdaVersionuvnIAuwdjI4b3Lk6okMvz2UDywzokojjnOk74I7Co4": {
+    "AuthenticateLambdaVersion11ZcPwVlGVBZ8NHRcZH5ddmgrV0UKykthd8ZLSi0QiE": {
       "Type": "AWS::Lambda::Version",
       "DeletionPolicy": "Retain",
       "Properties": {
         "FunctionName": {
           "Ref": "AuthenticateLambdaFunction"
         },
-        "CodeSha256": "rrMouyH/W05LsISo3ySsIXR7MU/G3EonziFwZZf3VAg="
+        "CodeSha256": "cTEz/qYT8JZCepn2YH7f7ZPgF9aRFYY1HFVZDyD0jtA="
       }
     },
     "UpdateUserLambdaFunction": {
@@ -284,7 +284,7 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/inc-app-api/dev/1546958209092-2019-01-08T14:36:49.092Z/inc-app-api.zip"
+          "S3Key": "serverless/inc-app-api/dev/1547363705164-2019-01-13T07:15:05.164Z/inc-app-api.zip"
         },
         "FunctionName": "inc-app-api-dev-updateUser",
         "Handler": "handlers/UserHandler.updateUser",
@@ -303,14 +303,14 @@
         "IamRoleLambdaExecution"
       ]
     },
-    "UpdateUserLambdaVersionCpfMW0MpLO4gVdsH9I8vKbKldI6VCO8yURtdpGJTl0": {
+    "UpdateUserLambdaVersionpQcuIAVsPbsBnXyEkJLJNbVgcnExivKOHjf7JA9G3w": {
       "Type": "AWS::Lambda::Version",
       "DeletionPolicy": "Retain",
       "Properties": {
         "FunctionName": {
           "Ref": "UpdateUserLambdaFunction"
         },
-        "CodeSha256": "rrMouyH/W05LsISo3ySsIXR7MU/G3EonziFwZZf3VAg="
+        "CodeSha256": "cTEz/qYT8JZCepn2YH7f7ZPgF9aRFYY1HFVZDyD0jtA="
       }
     },
     "DeleteUserLambdaFunction": {
@@ -320,7 +320,7 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/inc-app-api/dev/1546958209092-2019-01-08T14:36:49.092Z/inc-app-api.zip"
+          "S3Key": "serverless/inc-app-api/dev/1547363705164-2019-01-13T07:15:05.164Z/inc-app-api.zip"
         },
         "FunctionName": "inc-app-api-dev-deleteUser",
         "Handler": "handlers/UserHandler.deleteUser",
@@ -339,14 +339,14 @@
         "IamRoleLambdaExecution"
       ]
     },
-    "DeleteUserLambdaVersionNunQQQPLaQWNkk6RNepwRxrjnhaWbLComJ6JHEQcM0": {
+    "DeleteUserLambdaVersion2TDj9afOq1eNnCRDpBXzQ7PZrCJlMEthncMU0unXxEo": {
       "Type": "AWS::Lambda::Version",
       "DeletionPolicy": "Retain",
       "Properties": {
         "FunctionName": {
           "Ref": "DeleteUserLambdaFunction"
         },
-        "CodeSha256": "rrMouyH/W05LsISo3ySsIXR7MU/G3EonziFwZZf3VAg="
+        "CodeSha256": "cTEz/qYT8JZCepn2YH7f7ZPgF9aRFYY1HFVZDyD0jtA="
       }
     },
     "UserLambdaFunction": {
@@ -356,7 +356,7 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/inc-app-api/dev/1546958209092-2019-01-08T14:36:49.092Z/inc-app-api.zip"
+          "S3Key": "serverless/inc-app-api/dev/1547363705164-2019-01-13T07:15:05.164Z/inc-app-api.zip"
         },
         "FunctionName": "inc-app-api-dev-user",
         "Handler": "handlers/UserHandler.user",
@@ -375,14 +375,14 @@
         "IamRoleLambdaExecution"
       ]
     },
-    "UserLambdaVersioneTOELe9cKNUTUOyFUFKiI9yKfpjPiKda2h6K82aUqk": {
+    "UserLambdaVersionEGC9tPcT2xH03SpC2kA8drpAVwAGoNeC6jNAy5J58": {
       "Type": "AWS::Lambda::Version",
       "DeletionPolicy": "Retain",
       "Properties": {
         "FunctionName": {
           "Ref": "UserLambdaFunction"
         },
-        "CodeSha256": "rrMouyH/W05LsISo3ySsIXR7MU/G3EonziFwZZf3VAg="
+        "CodeSha256": "cTEz/qYT8JZCepn2YH7f7ZPgF9aRFYY1HFVZDyD0jtA="
       }
     },
     "CreateCategoryLambdaFunction": {
@@ -392,7 +392,7 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/inc-app-api/dev/1546958209092-2019-01-08T14:36:49.092Z/inc-app-api.zip"
+          "S3Key": "serverless/inc-app-api/dev/1547363705164-2019-01-13T07:15:05.164Z/inc-app-api.zip"
         },
         "FunctionName": "inc-app-api-dev-createCategory",
         "Handler": "handlers/CategoryHandler.createCategory",
@@ -411,14 +411,14 @@
         "IamRoleLambdaExecution"
       ]
     },
-    "CreateCategoryLambdaVersionbGSxQIoxGKAmxyADvM4RzZUpbOla7jZVuRZzDuQDfo": {
+    "CreateCategoryLambdaVersiony690qRNfmqlpbO3l2aA1o4elD9F5QI1SJHgmj2exIY": {
       "Type": "AWS::Lambda::Version",
       "DeletionPolicy": "Retain",
       "Properties": {
         "FunctionName": {
           "Ref": "CreateCategoryLambdaFunction"
         },
-        "CodeSha256": "rrMouyH/W05LsISo3ySsIXR7MU/G3EonziFwZZf3VAg="
+        "CodeSha256": "cTEz/qYT8JZCepn2YH7f7ZPgF9aRFYY1HFVZDyD0jtA="
       }
     },
     "UpdateCategoryLambdaFunction": {
@@ -428,7 +428,7 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/inc-app-api/dev/1546958209092-2019-01-08T14:36:49.092Z/inc-app-api.zip"
+          "S3Key": "serverless/inc-app-api/dev/1547363705164-2019-01-13T07:15:05.164Z/inc-app-api.zip"
         },
         "FunctionName": "inc-app-api-dev-updateCategory",
         "Handler": "handlers/CategoryHandler.updateCategory",
@@ -447,14 +447,14 @@
         "IamRoleLambdaExecution"
       ]
     },
-    "UpdateCategoryLambdaVersionizOwrEAU6sjC4w1eBnNyFuSVQKwuv5doMNbe0m4cpA": {
+    "UpdateCategoryLambdaVersion5KQqTXkeeIMtu25HUDcvrktrUz9MQORHkQpUkYTg3wY": {
       "Type": "AWS::Lambda::Version",
       "DeletionPolicy": "Retain",
       "Properties": {
         "FunctionName": {
           "Ref": "UpdateCategoryLambdaFunction"
         },
-        "CodeSha256": "rrMouyH/W05LsISo3ySsIXR7MU/G3EonziFwZZf3VAg="
+        "CodeSha256": "cTEz/qYT8JZCepn2YH7f7ZPgF9aRFYY1HFVZDyD0jtA="
       }
     },
     "GetCategoryLambdaFunction": {
@@ -464,7 +464,7 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/inc-app-api/dev/1546958209092-2019-01-08T14:36:49.092Z/inc-app-api.zip"
+          "S3Key": "serverless/inc-app-api/dev/1547363705164-2019-01-13T07:15:05.164Z/inc-app-api.zip"
         },
         "FunctionName": "inc-app-api-dev-getCategory",
         "Handler": "handlers/CategoryHandler.getCategory",
@@ -483,14 +483,14 @@
         "IamRoleLambdaExecution"
       ]
     },
-    "GetCategoryLambdaVersionUHb9B4Az2pq5mtSu8zCS7vjkAeckWKU3yA0mIbPaMfw": {
+    "GetCategoryLambdaVersionV8weXPX5adOZS2n2sJxuOctKn8hH5iWsenPnWgWWuY": {
       "Type": "AWS::Lambda::Version",
       "DeletionPolicy": "Retain",
       "Properties": {
         "FunctionName": {
           "Ref": "GetCategoryLambdaFunction"
         },
-        "CodeSha256": "rrMouyH/W05LsISo3ySsIXR7MU/G3EonziFwZZf3VAg="
+        "CodeSha256": "cTEz/qYT8JZCepn2YH7f7ZPgF9aRFYY1HFVZDyD0jtA="
       }
     },
     "GetItemLambdaFunction": {
@@ -500,7 +500,7 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/inc-app-api/dev/1546958209092-2019-01-08T14:36:49.092Z/inc-app-api.zip"
+          "S3Key": "serverless/inc-app-api/dev/1547363705164-2019-01-13T07:15:05.164Z/inc-app-api.zip"
         },
         "FunctionName": "inc-app-api-dev-getItem",
         "Handler": "handlers/ItemHandler.getItem",
@@ -519,14 +519,14 @@
         "IamRoleLambdaExecution"
       ]
     },
-    "GetItemLambdaVersionXFlMgTRze5m90lH5EUUiz7bAUCSa1J0jwuuHtKK4lv0": {
+    "GetItemLambdaVersionI1Hatjgh33GoN2vpNeCxIqh8QDRKDsgnbRfHhyCShs": {
       "Type": "AWS::Lambda::Version",
       "DeletionPolicy": "Retain",
       "Properties": {
         "FunctionName": {
           "Ref": "GetItemLambdaFunction"
         },
-        "CodeSha256": "rrMouyH/W05LsISo3ySsIXR7MU/G3EonziFwZZf3VAg="
+        "CodeSha256": "cTEz/qYT8JZCepn2YH7f7ZPgF9aRFYY1HFVZDyD0jtA="
       }
     },
     "CreateItemLambdaFunction": {
@@ -536,7 +536,7 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/inc-app-api/dev/1546958209092-2019-01-08T14:36:49.092Z/inc-app-api.zip"
+          "S3Key": "serverless/inc-app-api/dev/1547363705164-2019-01-13T07:15:05.164Z/inc-app-api.zip"
         },
         "FunctionName": "inc-app-api-dev-createItem",
         "Handler": "handlers/ItemHandler.createItem",
@@ -555,14 +555,14 @@
         "IamRoleLambdaExecution"
       ]
     },
-    "CreateItemLambdaVersionrie8j1CiyXrPBKW4yqilv1PlBXseYSevF6XlZU3K8M": {
+    "CreateItemLambdaVersionW5cAMXxhtQv9dCrWkjaOLLB1W57PpXAnjcvRhh8fXzI": {
       "Type": "AWS::Lambda::Version",
       "DeletionPolicy": "Retain",
       "Properties": {
         "FunctionName": {
           "Ref": "CreateItemLambdaFunction"
         },
-        "CodeSha256": "rrMouyH/W05LsISo3ySsIXR7MU/G3EonziFwZZf3VAg="
+        "CodeSha256": "cTEz/qYT8JZCepn2YH7f7ZPgF9aRFYY1HFVZDyD0jtA="
       }
     },
     "UpdateItemLambdaFunction": {
@@ -572,7 +572,7 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/inc-app-api/dev/1546958209092-2019-01-08T14:36:49.092Z/inc-app-api.zip"
+          "S3Key": "serverless/inc-app-api/dev/1547363705164-2019-01-13T07:15:05.164Z/inc-app-api.zip"
         },
         "FunctionName": "inc-app-api-dev-updateItem",
         "Handler": "handlers/ItemHandler.updateItem",
@@ -591,14 +591,14 @@
         "IamRoleLambdaExecution"
       ]
     },
-    "UpdateItemLambdaVersioncXH0Mddyj4clRhuooVDWMDYa8MLspqppZ2X0C9BOo": {
+    "UpdateItemLambdaVersionWNhBddWBcfUcwbcQg5R4fptWUCIEdRaDVIeh9q4iQY": {
       "Type": "AWS::Lambda::Version",
       "DeletionPolicy": "Retain",
       "Properties": {
         "FunctionName": {
           "Ref": "UpdateItemLambdaFunction"
         },
-        "CodeSha256": "rrMouyH/W05LsISo3ySsIXR7MU/G3EonziFwZZf3VAg="
+        "CodeSha256": "cTEz/qYT8JZCepn2YH7f7ZPgF9aRFYY1HFVZDyD0jtA="
       }
     },
     "ApiGatewayRestApi": {
@@ -1673,7 +1673,7 @@
         "MethodResponses": []
       }
     },
-    "ApiGatewayDeployment1546958209348": {
+    "ApiGatewayDeployment1547363705423": {
       "Type": "AWS::ApiGateway::Deployment",
       "Properties": {
         "RestApiId": {
@@ -2231,67 +2231,67 @@
     "CreateUserLambdaFunctionQualifiedArn": {
       "Description": "Current Lambda function version",
       "Value": {
-        "Ref": "CreateUserLambdaVersionMtA3Es18HJA6PrcjUEthj7sxa5QfUdJdimRLNhES8w"
+        "Ref": "CreateUserLambdaVersionzt7KD4TjIwd9CbUBlQT7IhAlTbTlFld1BP8vGQxYE"
       }
     },
     "AuthenticateLambdaFunctionQualifiedArn": {
       "Description": "Current Lambda function version",
       "Value": {
-        "Ref": "AuthenticateLambdaVersionuvnIAuwdjI4b3Lk6okMvz2UDywzokojjnOk74I7Co4"
+        "Ref": "AuthenticateLambdaVersion11ZcPwVlGVBZ8NHRcZH5ddmgrV0UKykthd8ZLSi0QiE"
       }
     },
     "UpdateUserLambdaFunctionQualifiedArn": {
       "Description": "Current Lambda function version",
       "Value": {
-        "Ref": "UpdateUserLambdaVersionCpfMW0MpLO4gVdsH9I8vKbKldI6VCO8yURtdpGJTl0"
+        "Ref": "UpdateUserLambdaVersionpQcuIAVsPbsBnXyEkJLJNbVgcnExivKOHjf7JA9G3w"
       }
     },
     "DeleteUserLambdaFunctionQualifiedArn": {
       "Description": "Current Lambda function version",
       "Value": {
-        "Ref": "DeleteUserLambdaVersionNunQQQPLaQWNkk6RNepwRxrjnhaWbLComJ6JHEQcM0"
+        "Ref": "DeleteUserLambdaVersion2TDj9afOq1eNnCRDpBXzQ7PZrCJlMEthncMU0unXxEo"
       }
     },
     "UserLambdaFunctionQualifiedArn": {
       "Description": "Current Lambda function version",
       "Value": {
-        "Ref": "UserLambdaVersioneTOELe9cKNUTUOyFUFKiI9yKfpjPiKda2h6K82aUqk"
+        "Ref": "UserLambdaVersionEGC9tPcT2xH03SpC2kA8drpAVwAGoNeC6jNAy5J58"
       }
     },
     "CreateCategoryLambdaFunctionQualifiedArn": {
       "Description": "Current Lambda function version",
       "Value": {
-        "Ref": "CreateCategoryLambdaVersionbGSxQIoxGKAmxyADvM4RzZUpbOla7jZVuRZzDuQDfo"
+        "Ref": "CreateCategoryLambdaVersiony690qRNfmqlpbO3l2aA1o4elD9F5QI1SJHgmj2exIY"
       }
     },
     "UpdateCategoryLambdaFunctionQualifiedArn": {
       "Description": "Current Lambda function version",
       "Value": {
-        "Ref": "UpdateCategoryLambdaVersionizOwrEAU6sjC4w1eBnNyFuSVQKwuv5doMNbe0m4cpA"
+        "Ref": "UpdateCategoryLambdaVersion5KQqTXkeeIMtu25HUDcvrktrUz9MQORHkQpUkYTg3wY"
       }
     },
     "GetCategoryLambdaFunctionQualifiedArn": {
       "Description": "Current Lambda function version",
       "Value": {
-        "Ref": "GetCategoryLambdaVersionUHb9B4Az2pq5mtSu8zCS7vjkAeckWKU3yA0mIbPaMfw"
+        "Ref": "GetCategoryLambdaVersionV8weXPX5adOZS2n2sJxuOctKn8hH5iWsenPnWgWWuY"
       }
     },
     "GetItemLambdaFunctionQualifiedArn": {
       "Description": "Current Lambda function version",
       "Value": {
-        "Ref": "GetItemLambdaVersionXFlMgTRze5m90lH5EUUiz7bAUCSa1J0jwuuHtKK4lv0"
+        "Ref": "GetItemLambdaVersionI1Hatjgh33GoN2vpNeCxIqh8QDRKDsgnbRfHhyCShs"
       }
     },
     "CreateItemLambdaFunctionQualifiedArn": {
       "Description": "Current Lambda function version",
       "Value": {
-        "Ref": "CreateItemLambdaVersionrie8j1CiyXrPBKW4yqilv1PlBXseYSevF6XlZU3K8M"
+        "Ref": "CreateItemLambdaVersionW5cAMXxhtQv9dCrWkjaOLLB1W57PpXAnjcvRhh8fXzI"
       }
     },
     "UpdateItemLambdaFunctionQualifiedArn": {
       "Description": "Current Lambda function version",
       "Value": {
-        "Ref": "UpdateItemLambdaVersioncXH0Mddyj4clRhuooVDWMDYa8MLspqppZ2X0C9BOo"
+        "Ref": "UpdateItemLambdaVersionWNhBddWBcfUcwbcQg5R4fptWUCIEdRaDVIeh9q4iQY"
       }
     },
     "ServiceEndpoint": {

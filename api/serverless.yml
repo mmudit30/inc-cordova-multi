@@ -7,17 +7,6 @@ provider:
   region: ap-south-1
   runtime: nodejs8.10
 
-plugins:
-  - serverless-domain-manager
-
-custom:
-  customDomain:
-    domainName: aapkisevamein.com
-    certificateName: www.aapkisevamein.com
-    basePath: ''
-    stage: ${self:provider.stage}
-  
-    createRoute53Record: true
 functions:
   createUser:
     handler: handlers/UserHandler.createUser
