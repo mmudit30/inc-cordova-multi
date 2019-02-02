@@ -36,6 +36,7 @@ module.exports.createItem= (event, context, callback) => {
       description: data.description,
       value: data.value,
       image: data.image,
+      quantity: data.quantity,
       thumbnail: data.thumbnail,
       categoryID: id
 
@@ -77,6 +78,7 @@ module.exports.createItem= (event, context, callback) => {
       description: data.description,
       value: data.value,
       image: data.image,
+      quantity: data.quantity,
       thumbnail: data.thumbnail,
       categoryID: data.categoryID
     })

@@ -18,6 +18,10 @@ const model = mongoose.model('Item', {
     type: Number,
     required: true
   },
+  quantity:{
+    type: Number,
+    required: true
+  },
   image:{
     type: String
   },
