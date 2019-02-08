@@ -34,6 +34,7 @@ module.exports.createCategory = (event, context, callback) => {
       name: data.name,
       subType: data.subType,
       type: data.type,
+      image: data.image
     })
 
     dbConnectAndExecute(mongoString, () => (
@@ -71,6 +72,7 @@ module.exports.createCategory = (event, context, callback) => {
       name: data.name,
       subType: data.subType,
       type: data.type,
+      image: data.image
     })
 
 

@@ -13,6 +13,9 @@ const model = mongoose.model('Category', {
   subType:{
     type: String,
     required: true,
+  },
+  image:{
+    type: String
   }
 })
 
