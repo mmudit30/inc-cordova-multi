@@ -226,7 +226,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/inc-app-api/dev/1549601440744-2019-02-08T04:50:40.744Z/inc-app-api.zip"
+                "S3Key": "serverless/inc-app-api/dev/1549782575299-2019-02-10T07:09:35.299Z/inc-app-api.zip"
               },
               "FunctionName": "inc-app-api-dev-createUser",
               "Handler": "handlers/UserHandler.createUser",
@@ -262,7 +262,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/inc-app-api/dev/1549601440744-2019-02-08T04:50:40.744Z/inc-app-api.zip"
+                "S3Key": "serverless/inc-app-api/dev/1549782575299-2019-02-10T07:09:35.299Z/inc-app-api.zip"
               },
               "FunctionName": "inc-app-api-dev-authenticate",
               "Handler": "handlers/UserHandler.authenticate",
@@ -298,7 +298,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/inc-app-api/dev/1549601440744-2019-02-08T04:50:40.744Z/inc-app-api.zip"
+                "S3Key": "serverless/inc-app-api/dev/1549782575299-2019-02-10T07:09:35.299Z/inc-app-api.zip"
               },
               "FunctionName": "inc-app-api-dev-updateUser",
               "Handler": "handlers/UserHandler.updateUser",
@@ -334,7 +334,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/inc-app-api/dev/1549601440744-2019-02-08T04:50:40.744Z/inc-app-api.zip"
+                "S3Key": "serverless/inc-app-api/dev/1549782575299-2019-02-10T07:09:35.299Z/inc-app-api.zip"
               },
               "FunctionName": "inc-app-api-dev-deleteUser",
               "Handler": "handlers/UserHandler.deleteUser",
@@ -370,7 +370,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/inc-app-api/dev/1549601440744-2019-02-08T04:50:40.744Z/inc-app-api.zip"
+                "S3Key": "serverless/inc-app-api/dev/1549782575299-2019-02-10T07:09:35.299Z/inc-app-api.zip"
               },
               "FunctionName": "inc-app-api-dev-user",
               "Handler": "handlers/UserHandler.user",
@@ -406,7 +406,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/inc-app-api/dev/1549601440744-2019-02-08T04:50:40.744Z/inc-app-api.zip"
+                "S3Key": "serverless/inc-app-api/dev/1549782575299-2019-02-10T07:09:35.299Z/inc-app-api.zip"
               },
               "FunctionName": "inc-app-api-dev-createCategory",
               "Handler": "handlers/CategoryHandler.createCategory",
@@ -442,7 +442,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/inc-app-api/dev/1549601440744-2019-02-08T04:50:40.744Z/inc-app-api.zip"
+                "S3Key": "serverless/inc-app-api/dev/1549782575299-2019-02-10T07:09:35.299Z/inc-app-api.zip"
               },
               "FunctionName": "inc-app-api-dev-updateCategory",
               "Handler": "handlers/CategoryHandler.updateCategory",
@@ -478,7 +478,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/inc-app-api/dev/1549601440744-2019-02-08T04:50:40.744Z/inc-app-api.zip"
+                "S3Key": "serverless/inc-app-api/dev/1549782575299-2019-02-10T07:09:35.299Z/inc-app-api.zip"
               },
               "FunctionName": "inc-app-api-dev-getCategory",
               "Handler": "handlers/CategoryHandler.getCategory",
@@ -514,7 +514,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/inc-app-api/dev/1549601440744-2019-02-08T04:50:40.744Z/inc-app-api.zip"
+                "S3Key": "serverless/inc-app-api/dev/1549782575299-2019-02-10T07:09:35.299Z/inc-app-api.zip"
               },
               "FunctionName": "inc-app-api-dev-getItem",
               "Handler": "handlers/ItemHandler.getItem",
@@ -550,7 +550,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/inc-app-api/dev/1549601440744-2019-02-08T04:50:40.744Z/inc-app-api.zip"
+                "S3Key": "serverless/inc-app-api/dev/1549782575299-2019-02-10T07:09:35.299Z/inc-app-api.zip"
               },
               "FunctionName": "inc-app-api-dev-createItem",
               "Handler": "handlers/ItemHandler.createItem",
@@ -586,7 +586,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/inc-app-api/dev/1549601440744-2019-02-08T04:50:40.744Z/inc-app-api.zip"
+                "S3Key": "serverless/inc-app-api/dev/1549782575299-2019-02-10T07:09:35.299Z/inc-app-api.zip"
               },
               "FunctionName": "inc-app-api-dev-updateItem",
               "Handler": "handlers/ItemHandler.updateItem",
@@ -762,6 +762,18 @@
                 "Ref": "ApiGatewayResourceItem"
               },
               "PathPart": "post",
+              "RestApiId": {
+                "Ref": "ApiGatewayRestApi"
+              }
+            }
+          },
+          "ApiGatewayResourceItemPostIdVar": {
+            "Type": "AWS::ApiGateway::Resource",
+            "Properties": {
+              "ParentId": {
+                "Ref": "ApiGatewayResourceItemPost"
+              },
+              "PathPart": "{id}",
               "RestApiId": {
                 "Ref": "ApiGatewayRestApi"
               }
@@ -1120,7 +1132,7 @@
               }
             }
           },
-          "ApiGatewayMethodItemPostOptions": {
+          "ApiGatewayMethodItemPostIdVarOptions": {
             "Type": "AWS::ApiGateway::Method",
             "Properties": {
               "AuthorizationType": "NONE",
@@ -1160,7 +1172,7 @@
                 ]
               },
               "ResourceId": {
-                "Ref": "ApiGatewayResourceItemPost"
+                "Ref": "ApiGatewayResourceItemPostIdVar"
               },
               "RestApiId": {
                 "Ref": "ApiGatewayRestApi"
@@ -1601,13 +1613,13 @@
               "MethodResponses": []
             }
           },
-          "ApiGatewayMethodItemPostPost": {
+          "ApiGatewayMethodItemPostIdVarPost": {
             "Type": "AWS::ApiGateway::Method",
             "Properties": {
               "HttpMethod": "POST",
               "RequestParameters": {},
               "ResourceId": {
-                "Ref": "ApiGatewayResourceItemPost"
+                "Ref": "ApiGatewayResourceItemPostIdVar"
               },
               "RestApiId": {
                 "Ref": "ApiGatewayRestApi"
@@ -1687,7 +1699,7 @@
               "MethodResponses": []
             }
           },
-          "ApiGatewayDeployment1549601440992": {
+          "ApiGatewayDeployment1549782575568": {
             "Type": "AWS::ApiGateway::Deployment",
             "Properties": {
               "RestApiId": {
@@ -1703,7 +1715,7 @@
               "ApiGatewayMethodCategoryPutIdVarOptions",
               "ApiGatewayMethodCategoryListOptions",
               "ApiGatewayMethodItemListOptions",
-              "ApiGatewayMethodItemPostOptions",
+              "ApiGatewayMethodItemPostIdVarOptions",
               "ApiGatewayMethodItemPutIdVarOptions",
               "ApiGatewayMethodUserPost",
               "ApiGatewayMethodUserAuthenticatePost",
@@ -1714,7 +1726,7 @@
               "ApiGatewayMethodCategoryPutIdVarPost",
               "ApiGatewayMethodCategoryListGet",
               "ApiGatewayMethodItemListGet",
-              "ApiGatewayMethodItemPostPost",
+              "ApiGatewayMethodItemPostIdVarPost",
               "ApiGatewayMethodItemPutIdVarPost"
             ]
           },
@@ -2687,7 +2699,7 @@
         "events": [
           {
             "http": {
-              "path": "item/post",
+              "path": "item/post/{id}",
               "method": "post",
               "cors": {
                 "origins": [
@@ -2763,7 +2775,7 @@
     "artifact": "/home/amanneox/Projects/inc-cordova-multi/api/.serverless/inc-app-api.zip"
   },
   "package": {
-    "artifactDirectoryName": "serverless/inc-app-api/dev/1549601440744-2019-02-08T04:50:40.744Z",
+    "artifactDirectoryName": "serverless/inc-app-api/dev/1549782575299-2019-02-10T07:09:35.299Z",
     "artifact": "inc-app-api.zip"
   }
 }

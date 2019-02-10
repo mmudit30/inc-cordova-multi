@@ -84,7 +84,7 @@ functions:
     handler: handlers/ItemHandler.createItem
     events:
       - http:
-          path: item/post
+          path: item/post/{id}
           method: post
           cors: true
 
